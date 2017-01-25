@@ -1,4 +1,5 @@
 from flask import Flask, request, redirect, url_for, send_from_directory,Response,jsonify,json
+import os 
 import DemoModule
 
 # Setup Flask app.
@@ -66,4 +67,5 @@ def sample_get():
 
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=80)
+	port = int(os.environ.get('PORT', 5000))
+  	app.run(host='0.0.0.0', port=port)
