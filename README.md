@@ -1,11 +1,10 @@
-# Hello world flask server demo app
+# skeleton project using flask-server web-ui & rest
 
-- example of post route
-- example of get route
-- example of reading headers
-- example of reading post data
-- example of sending json reponse
-- basic html template with loaded css and jquery
-- static file hosting via flask setup
-- ajax call to these rest endpoints
-
+> - skeleton of post route
+> - skeleton of get route
+> - skeleton of reading headers
+> - skeleton of reading post data
+> - skeleton of sending json reponse
+> - basic html template with loaded css and jquery
+> - static file hosting via flask setup
+> - skeleton of ajax call to the flask endpoints
